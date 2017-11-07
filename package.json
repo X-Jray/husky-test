@@ -7,14 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "taska": "node ./a.js",
     "taskb": "node ./b.js",
-    "taskc": "node ./c.js",
     "taskd": "node ./d.js",
-    "taske": "node ./e.js",
+    "taskc": "node ./c.js",
     "precommit": "npm run taska", 
-    "premerge": "npm run taskb",
-    "postcommit": "npm run taskc", 
-    "postmerge": "npm run taskd",
-    "prepush": "npm run taske"
+    "postcommit": "npm run taskb", 
+    "postmerge": "npm run taskc",
+    "prepush": "npm run taskd"
   },
   "repository": {
     "type": "git",
