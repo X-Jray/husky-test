@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-console.log('pre commit');
+console.log('haha, pre commit do this');
 process.exit(0);
