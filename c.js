@@ -1,4 +1,5 @@
 #!/usr/bin/env node
 
-console.log('ohyes, post merge do this');
+
+console.log('haha, post commit do this');
 process.exit(0);
