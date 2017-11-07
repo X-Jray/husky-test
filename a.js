@@ -1,6 +1,4 @@
-/**
- * @file post commit do this
- * @author X-Jray
-*/
+#!/usr/bin/env node
 
-console.log('haha, post commit do this');
+console.log('pre commit');
+process.exit(0);

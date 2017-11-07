@@ -1,6 +1,3 @@
-/**
- * @file post push do this
- * @author X-Jray
-*/
+#!/usr/bin/env node
 
 console.log('haha, post push do this');

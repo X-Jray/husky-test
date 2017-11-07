@@ -1,6 +1,2 @@
-/**
- * @file pre push do this
- * @author X-Jray
-*/
-
+#!/usr/bin/env node
 console.log('haha, pre push do this');
