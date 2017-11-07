@@ -6,13 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "taska": "node ./a.js",
-    "taskc": "node ./c.js",
+    "taskb": "node ./b.js",
     "taskd": "node ./d.js",
-    "taske": "node ./e.js",
-    "precommit": "npm run taska",
-    "postcommit": "npm run taskc", 
-    "postmerge": "npm run taskd",
-    "prepush": "npm run taske"
+    "taskc": "node ./c.js",
+    "precommit": "npm run taska", 
+    "postcommit": "npm run taskb", 
+    "postmerge": "npm run taskc",
+    "prepush": "npm run taskd"
   },
   "repository": {
     "type": "git",
