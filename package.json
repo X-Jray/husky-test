@@ -9,10 +9,12 @@
     "taskb": "node ./b.js",
     "taskc": "node ./c.js",
     "taskd": "node ./d.js",
+    "taske": "node ./e.js",
     "precommit": "npm run taska", 
     "premerge": "npm run taskb",
     "postcommit": "npm run taskc", 
-    "postmerge": "npm run taskd"
+    "postmerge": "npm run taskd",
+    "prepush": "npm run taske"
   },
   "repository": {
     "type": "git",
